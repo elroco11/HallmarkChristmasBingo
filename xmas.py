@@ -12,10 +12,11 @@ def generateBoard(boardnum,outfile):
                  "a handwritten note or letter","wedding dress","pretend to be my girlfriend/boyfriend/fiance",
                  "purchasing/wrapping/opening gifts","main characters meet and don't like each other at first",
                  "holiday baking/flour fight","airplane/airport","Santa","accidental fall that requires help up",
-                 "Christmas/holiday party","a not-so-unexpected twist","someone lies badly","snowing","ugly Christmas sweater",
-                 "carolers in old-fashioned costumes","Christmas festival","breakup","wearing open coat outside","candles",
+                 "Christmas/holiday party","a not-so-unexpected twist","someone lies","snowing","ugly Christmas sweater",
+                 "carolers in old-fashioned costumes","Christmas Eve performance","breakup","wearing open coat outside","candles",
                  "ex tries to win protagonist back","opening front door without a key","dead parent","mistaken identity", "snow on green grass",
-                 "doting elderly relative","hanging out in local coffee shop or diner","non-traditional Christmas carol","someone mentions the magic of Christmas"]
+                 "doting elderly relative","hanging out in local coffee shop or diner","non-traditional Christmas carol","someone mentions the magic of Christmas",
+                 "visiting Christmas market","making a big deal of placing tree topper","party planning","roads are closed/inaccessible","product placement"]
 
     workbook = xlsxwriter.Workbook(outfile)
 
